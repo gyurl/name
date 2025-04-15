@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<nick>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.random.Main",
+            "projectName": "nick",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-NicknameApplication<nickname>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.project.nickname.NicknameApplication",
+            "projectName": "nickname",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
